@@ -14,7 +14,7 @@ Raspberry Pi 4 Model B
 LED(青色)
 
 # Usage
-make /n
+make \n
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 echo 1 > /dev/myled0 (ledを光らせる)
